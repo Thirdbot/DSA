@@ -18,10 +18,7 @@ class Solution(object):
             else:
                 right = index - 1
         
-        if (target > nums[left-1] and target < nums[right-1]):
-            return left
-        else:
-            return left
+        return left
         
         
 
